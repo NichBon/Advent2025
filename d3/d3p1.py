@@ -1,4 +1,4 @@
-input = open("input.txt", "r")
+input = open("test.txt", "r")
 
 def maxVoltage(numString):
     max = "0"
@@ -16,11 +16,10 @@ def maxVoltage(numString):
     return(max + secondHighest)
 
 totalVoltage = 0
-line = 1
     
 for numString in input:
     voltage = maxVoltage(numString)
+    print(voltage)
     totalVoltage += int(voltage)
-    line += 1
 
 print(totalVoltage)
