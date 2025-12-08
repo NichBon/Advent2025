@@ -34,8 +34,11 @@ for rowIndex, row in enumerate(paperArray):
                 currentRow[columnIndex] = "x"
                 paperArray[rowIndex] = "".join(currentRow)
 
+#printing adjusted row
 for row in paperArray:
     print(row)
+    
+#output
 print(accessibleRolls)
 
 #accessiblePaperCheck(1, 0, 10, 10, paperArray)
