@@ -41,6 +41,5 @@ freshIds = 0
 for start, end in freshIdRanges:
     freshIds += end - start + 1
 
-print(freshIdRanges)
 print(freshIds)
 print((time.time()-startTime)*1e3, "ms")
